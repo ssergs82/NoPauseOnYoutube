@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+    "name": "No pause on Youtube",
+    "version": "1.0",
+    "description": "Play video without pause on youtube",
+	"icons":
+	{
+		"16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png" 
+	},
+	"permissions": ["activeTab", "declarativeContent", "storage"],
+	"background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+	"content_scripts": [{
+		"js": ["content.js", "jquery-3.4.1.min.js"],
+		"matches": ["https://www.youtube.com/*"]
+	  }]
+ }
