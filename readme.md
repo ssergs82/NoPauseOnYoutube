@@ -1,6 +1,6 @@
 # NoPauseOnYoutube chrome extension
 
-This is a chrome extension for automatic click on Continue button on Youtube, so no pause when play video
+This is a chrome extension for automatic click on Continue button on Youtube, so no pause when play video or when unacceptable content message appear
 
 # Notes
 
